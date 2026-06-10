@@ -1,0 +1,20 @@
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3
+matplotlib>=3.7
+seaborn>=0.12
+PyYAML>=6.0
+pyarrow>=12.0       # parquet backend
+fastparquet>=2023   # alternative parquet
+requests>=2.31
+tqdm>=4.65
+arch>=6.2           # bootstrap Sharpe test
+statsmodels>=0.14
+
+# vnstock — fallback data source
+vnstock>=0.3.0
+
+# optional notebook support
+jupyter>=1.0
+ipykernel>=6.0
